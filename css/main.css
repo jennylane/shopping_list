@@ -1,3 +1,7 @@
+div {
+    border: 1px solid Chocolate;
+}
+
 body {
     background-image: url("../images/background.jpg");
     background-repeat: repeat;
@@ -9,19 +13,76 @@ header {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 8rem;
+    height: 1rem;
     overflow: auto;
+    padding-top:10rem;
     }
 
 .maincontent {
 	padding: 2rem;
+	width: 90%;
+	margin:0 auto;
+}
+
+.leftcol, .rightcol {
+	width: 45%;
 }
 
 .xmasheading {
  	color: #fff;
+ 	text-align:center;
+ 	line-height: 2.2rem;
  }
 
-h4, .small, .large {
+h4, .small {
 	font-family: 'Alex Brush', cursive;
 	font-weight: 800;
+	margin: 0px;
+	line
 }
+
+h4 {
+	font-size: 3.5rem;
+}
+
+.small {
+	font-size: 2rem;
+}
+
+.addbox {
+	width: 60%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-color: #f8df82;
+
+}
+
+.addbutton {
+	background-image: url("../images/button.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120px;
+	font-size: 1.5rem;
+	height:48px;
+	background-position: top;
+	padding-top:5px;
+	margin-top:5px;
+	display:block;
+	margin:0 auto;
+	color: #fff;
+}
+
+.listcontainer {
+	width: 70%
+	background-color: #fff;
+}
+
+.rightcol {
+	float: right;
+}
+
+.leftcol {
+	float: left;
+}
+
