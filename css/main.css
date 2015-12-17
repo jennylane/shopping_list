@@ -1,0 +1,27 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    margin:0px;
+}
+
+header {
+    background-image: url('../images/garlandheader.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8rem;
+    overflow: auto;
+    }
+
+.maincontent {
+	padding: 2rem;
+}
+
+.xmasheading {
+ 	color: #fff;
+ }
+
+h4, .small, .large {
+	font-family: 'Alex Brush', cursive;
+	font-weight: 800;
+}
