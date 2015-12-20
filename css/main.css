@@ -1,12 +1,18 @@
 div {
-    border: 1px solid Chocolate;
+   /* border: 1px solid Chocolate;*/
+
 }
 
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url('../images/background.jpg');
+    background-position: center bottom;
     background-repeat: repeat;
-    margin:0px;
-}
+    background-size: cover;
+    height: 1rem;
+    overflow: auto;
+    margin: 0px;
+    }
+
 
 header {
     background-image: url('../images/garlandheader.png');
@@ -38,7 +44,6 @@ h4, .small {
 	font-family: 'Alex Brush', cursive;
 	font-weight: 800;
 	margin: 0px;
-	line
 }
 
 h4 {
@@ -74,8 +79,12 @@ h4 {
 }
 
 .listcontainer {
-	width: 70%
 	background-color: #fff;
+	opacity: 0.5;
+	padding: 10px;
+	border: 1px solid #f8df82;
+	min-height: 10rem;
+
 }
 
 .rightcol {
@@ -84,5 +93,13 @@ h4 {
 
 .leftcol {
 	float: left;
+}
+
+.delete {
+	font-family: 'Alex Brush', cursive;
+	font-weight: 800;
+	color: #f8df82;
+	font-size: 1.2rem;
+	padding: 0px 10px;
 }
 

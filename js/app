@@ -1,0 +1,6 @@
+$(document).ready(function() {
+	$('.addbutton').on('click', function() {
+	var userItem= $('.addbox').val();
+	console.log(userItem);
+	});
+	});
